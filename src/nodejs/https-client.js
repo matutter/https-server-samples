@@ -1,7 +1,7 @@
 var fs = require('fs');
 var https = require('https');
 
-const cert_dir = 'test/client/'
+const cert_dir = '../../test/client/'
 
 var options = { 
     hostname: 'localhost', 
